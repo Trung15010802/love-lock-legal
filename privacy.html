@@ -18,7 +18,7 @@
 </head>
 <body><main>
 <h1>Chính sách quyền riêng tư</h1>
-<p class="muted">Love Lock (com.lovelock.couple) · Cập nhật: 19/11/2026</p>
+<p class="muted">Love Lock (com.lovelock.couple) · Cập nhật: 22/11/2026</p>
 
 <h2>Dữ liệu chúng tôi thu thập</h2>
 <ul>
@@ -26,8 +26,19 @@
   <li><strong>Không gian chung:</strong> ngày bắt đầu mối quan hệ, tên hiển thị và ảnh đại diện của hai bạn.</li>
   <li><strong>Kỷ niệm:</strong> tiêu đề, mô tả, ngày, địa điểm bạn nhập và ảnh bạn chọn.</li>
   <li><strong>Lời nhắn quan tâm:</strong> nội dung, thời gian gửi và trạng thái gửi.</li>
+  <li><strong>Together Map (VIP, không bắt buộc):</strong> khi bạn bật chia sẻ, vĩ độ, kinh độ, độ chính xác và thời điểm lấy vị trí mới nhất của bạn và của người ấy được lưu để hai bạn cùng thấy nhau trên bản đồ. Mỗi người chỉ lưu một vị trí mới nhất, không có lịch sử vị trí. Tắt chia sẻ sẽ xoá vị trí đã lưu và dừng thu thập; điều này cũng xảy ra khi kết thúc mối quan hệ hoặc VIP hết hạn.</li>
   <li><strong>Đăng ký VIP:</strong> trạng thái gói và mã giao dịch do Google Play hoặc App Store cung cấp. Chúng tôi <em>không</em> nhận số thẻ hay thông tin thanh toán.</li>
   <li><strong>Thiết bị:</strong> mã thông báo đẩy (FCM/APNs) để gửi nhắc nhẹ, thống kê sử dụng ẩn danh (ứng dụng được mở, màn hình đã xem, mã định danh tài khoản dạng UUID) và nhật ký lỗi kỹ thuật tối thiểu (không kèm nội dung kỷ niệm, lời nhắn, ảnh hay token).</li>
+</ul>
+
+<h2>Together Map và vị trí của bạn</h2>
+<ul>
+  <li>Together Map mặc định tắt và mỗi người tự quyết định. Không ai có thể bật chia sẻ vị trí thay bạn.</li>
+  <li>Vị trí của bạn chỉ người còn lại trong mối quan hệ đang hoạt động thấy được, và chỉ khi bạn đang bật chia sẻ.</li>
+  <li>Vị trí không dùng cho quảng cáo, không bán, không ghi vào log hay báo cáo lỗi.</li>
+  <li><strong>Vị trí khi ứng dụng đã đóng (Android):</strong> nếu bạn cho phép quyền vị trí "mọi lúc", ứng dụng có thể lấy <em>một</em> vị trí khi người ấy bấm yêu cầu cập nhật trong lúc bạn không mở Love Lock — và chỉ khi bạn vẫn đang bật chia sẻ. Đây không phải theo dõi liên tục: mỗi lần chỉ lấy một vị trí, không có lịch sử, và tắt chia sẻ hoặc thu hồi quyền sẽ dừng ngay.</li>
+  <li>Khi bạn đồng ý, Android hiển thị một thông báo trong lúc chia sẻ nền và iOS hiển thị chỉ báo vị trí. Hệ điều hành có thể dừng cập nhật nền bất cứ lúc nào; ứng dụng không tìm cách vượt qua.</li>
+  <li>Tắt chia sẻ, kết thúc mối quan hệ hoặc mất quyền VIP sẽ xoá vị trí đã lưu và thu hồi quyền truy cập.</li>
 </ul>
 
 <h2>Mục đích sử dụng</h2>
@@ -54,7 +65,7 @@
 <hr>
 
 <h1>Privacy Policy (English)</h1>
-<p class="muted">Love Lock (com.lovelock.couple) · Updated 19 Nov 2026</p>
+<p class="muted">Love Lock (com.lovelock.couple) · Updated 22 Nov 2026</p>
 
 <h2>Data we collect</h2>
 <ul>
@@ -62,12 +73,23 @@
   <li><strong>Shared space:</strong> relationship start date and both members' display names and avatars.</li>
   <li><strong>Memories:</strong> title, description, date, the location you type and the photos you pick.</li>
   <li><strong>Care messages:</strong> body, scheduled time and delivery status.</li>
+  <li><strong>Together Map (VIP, optional):</strong> while you keep sharing switched on, your device's latest latitude, longitude and accuracy, the time of the fix and your partner's, so both of you can see each other on a map. Only one position per member is kept: there is no location history. Turning sharing off deletes your saved position and stops location collection; the same happens when the relationship ends or the VIP entitlement expires.</li>
   <li><strong>VIP:</strong> plan status and the transaction id supplied by Google Play or the App Store. We never receive card numbers.</li>
   <li><strong>Device:</strong> a push token (FCM/APNs) for reminders, anonymous usage statistics (app opens, screens viewed, your account UUID) and minimal crash diagnostics (no memory, care message, photo or token content).</li>
 </ul>
 
 <h2>Why we use it</h2>
-<p>Only to run the app: show the shared space, sync memories, deliver scheduled messages, verify the VIP entitlement and answer support requests.</p>
+<p>Only to run the app: show the shared space, sync memories, deliver scheduled messages, verify the VIP entitlement, show Together Map to the two members of a relationship and answer support requests.</p>
+
+<h2>Together Map and your location</h2>
+<ul>
+  <li>Together Map is off by default and each member decides for themselves. Sharing your location is never enabled for you by someone else.</li>
+  <li>Your position is visible only to the other active member of your relationship, and only while you are sharing it.</li>
+  <li>Location is never used for advertising, never sold and never written to logs or crash reports.</li>
+  <li><strong>Location while the app is closed (Android):</strong> if you grant "Allow all the time", the app can take <em>one</em> position when your partner taps "update both" while Love Lock is closed — and only while you keep sharing switched on. This is not continuous tracking: one position per request, no history, and turning sharing off or revoking the permission stops it immediately.</li>
+  <li>With your agreement, Android keeps a visible notification while sharing in the background and iOS shows the location indicator. The system can stop background updates at any time; the app never tries to override that.</li>
+  <li>Turning sharing off, ending the relationship or losing the VIP entitlement deletes the stored position and revokes access.</li>
+</ul>
 
 <h2>Storage and sharing</h2>
 <ul>
